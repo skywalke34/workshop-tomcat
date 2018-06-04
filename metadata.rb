@@ -4,7 +4,7 @@ maintainer_email 'tracyfwalker@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures tomcat'
 long_description 'Installs/Configures tomcat'
-version '0.2.0'
+version '0.2.12'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are

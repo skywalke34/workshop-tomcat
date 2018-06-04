@@ -4,10 +4,10 @@ default['tomcat']['group'] = 'tomcat'
 
 # Tomcat related settings
 ## installation
-default['tomcat']['version'] = '8.5.20'
+default['tomcat']['version'] = '8.5.31'
 default['tomcat']['tomcat_home'] = '/opt/tomcat'
 default['tomcat']['set_etc_environment'] = false
-default['tomcat']['download_server'] = 'http://archive.apache.org/'
+default['tomcat']['download_server'] = 'http://apache.mirrors.ionfish.org'
 
 ## configuration
 default['tomcat']['shutdown_port'] = '8005'
